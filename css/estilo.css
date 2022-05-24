@@ -1,0 +1,161 @@
+body{
+	
+	background: #e7e7e7;
+	width: 100%;
+	margin: 0px;
+}
+
+#principal{
+	margin: 5px auto;
+width: 100%;
+}
+
+header{
+	height: 70px;	
+	background: #b1b1b1;
+	padding: 0px;
+	position: relative;
+	margin-bottom: 2px;
+
+}
+
+.logotipo{
+	margin-left: 135px;
+	padding: 5px;
+}
+
+.whatsapp{
+	margin-left: 150px;
+	margin-bottom: 10px;
+	
+}
+
+.e-mail{
+	margin-left: 210px;
+	margin-bottom: 10px;
+
+}
+
+footer{
+	height: 70px;
+	
+	background: #b1b1b1;
+	padding: 0px;
+	position: relative;
+	margin-bottom: 2px;
+
+}
+
+
+
+#banner{
+	margin: 5px 500px;
+}
+
+#transporte{
+	margin-left: 434px;
+
+}
+
+div span{
+	display: inline-block;
+	margin: 05px auto;
+	width: 100%;
+}
+
+#foto1{
+	margin-left: 130px;
+	padding: 5px;
+}
+
+#foto2{
+	margin-left: 18px;
+	padding: 5px;
+}
+
+
+
+#foto3{
+	margin-left: 18px;
+	padding: 5px;
+}
+
+#asfalto{
+
+	margin-left: 200px;
+}
+
+#areia{
+	margin-left: 200px;
+
+}
+
+#brita{
+	margin-left: 200px;
+}
+
+#galeria2{
+	width: 700px;
+	height: 246px;
+	
+	
+}
+
+#foto4{
+	margin-left: 135px;
+}
+
+#descrição-grãos{
+
+	margin-left: 135px;
+}
+
+#galeria3{
+	margin-left: 135px;
+}
+
+#foto5{
+	margin-left: 130px;
+	padding: 5px;
+}
+
+#foto6{
+	margin-left: 18px;
+	padding: 5px;
+
+}
+
+#foto7{
+	margin-left: 18px;
+	padding: 5px;
+
+}
+
+#galeria4{
+	margin-left: 135px;
+}
+
+#foto8{
+	margin-left: 130px;
+	padding: 5px;
+}
+
+#foto9{
+	margin-left: 18px;
+	padding: 5px;
+
+}
+
+#foto10{
+	margin-left: 18px;
+	padding: 5px;
+}
+
+#galeria5{
+	margin-left: 135px;
+}
+
+#foto11{
+	margin-left: 135px;
+
+}
