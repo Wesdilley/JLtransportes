@@ -1,161 +1,185 @@
 body{
-	
-	background: #e7e7e7;
-	width: 100%;
 	margin: 0px;
-}
-
-#principal{
-	margin: 5px auto;
-width: 100%;
-}
-
-header{
-	height: 70px;	
-	background: #b1b1b1;
 	padding: 0px;
-	position: relative;
-	margin-bottom: 2px;
+	width: 100%;
+	min-width: 900px;
+	max-width: 1261px;
 
 }
+
+#container{
+	background: #f3f3f3;
+	margin: 5px auto;
+	width: 100%;
+}
+
+
+#galeria-1 div img {
+	width: 92%
+}
+
+
+/*Formatação cabeçalho*/
+ #cabecalho{
+	width: 850px;
+	margin: 0px auto;
+
+}
+
 
 .logotipo{
-	margin-left: 135px;
-	padding: 5px;
+	float: left;
+	margin-top: 15px;
 }
 
 .whatsapp{
-	margin-left: 150px;
-	margin-bottom: 10px;
-	
+	float: left;
+	margin-left: 196px;
 }
 
 .e-mail{
-	margin-left: 210px;
-	margin-bottom: 10px;
-
+	float: right;
 }
 
-footer{
-	height: 70px;
-	
-	background: #b1b1b1;
+/*formatação banner*/
+
+#banner {
+	margin: 0px auto;
+	width: 850px;
+}
+
+ 
+
+#titulos{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#galeria-1{
+	width: 850px;
+	margin: 0px auto;
+}
+
+#galeria-1 .foto1 {
+	float: left;
+	width: 33.33%;
+	text-align: left;
+}
+
+#galeria-1 .foto2 {
+	float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+#galeria-1 .foto3 {
+	float: right;
+	width: 33.33%;
+	text-align: right;
+}
+
+.clear{
+	clear: both;
+}
+
+/*descrição galeria 1*/
+
+#descricao{
+	width: 850px;
+	margin: 0px auto;
+	text-align: center;
 	padding: 0px;
-	position: relative;
-	margin-bottom: 2px;
-
 }
 
-
-
-#banner{
-	margin: 5px 500px;
+#descricao div{
+	display: inline;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 30px;
+	padding-top: 05px;
 }
 
-#transporte{
-	margin-left: 434px;
-
+.massa-asfaltica{
+	 float: left;
 }
 
-div span{
+.areia{
+	margin-left: -48px;
+}
+
+.brita{
+	float: right;
+	margin-right: 66px;
+}
+
+/* início formatação da galeria 2 */
+
+#galeria-2{
+	width: 850px;
+	margin: 0px auto;
+}
+
+.descricao-galeria-2{
+	display: inline;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 30px;
+	padding-top: 05px;
+}
+
+#galeria-3 {
+	width: 850px;
+	margin: 20px auto;
+}
+.descricao-galeria-3 {
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 30px;
+	padding-top: 10px;
+	margin-left: 95px;
+	text-align: center;
+}
+
+.caminhao1{
+	float: left;
+}
+
+.caminhao2{
+	float: left;
+	margin-left: 157px;
+}
+
+.caminhao3{
+	float: right;
+}
+
+#galeria-4{
+	width: 850px;
+	margin: 20px auto;
+}
+
+.descricao-galeria-4{
 	display: inline-block;
-	margin: 05px auto;
-	width: 100%;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 30px;
+	padding-top: 41px;
+	margin-left: 95px;
 }
 
-#foto1{
-	margin-left: 130px;
-	padding: 5px;
+#galeria-5{
+	width: 850px;
+	margin: 20px auto;
 }
 
-#foto2{
-	margin-left: 18px;
-	padding: 5px;
+.descricao-galeria-5{
+	display: inline-block;
+	font-size: 25px;
+	font-weight: bold;
+	line-height: 30px;
+	padding-top: 41px;
+	margin-left: 164px;
+	margin-bottom: 10px;
 }
 
-
-
-#foto3{
-	margin-left: 18px;
-	padding: 5px;
-}
-
-#asfalto{
-
-	margin-left: 200px;
-}
-
-#areia{
-	margin-left: 200px;
-
-}
-
-#brita{
-	margin-left: 200px;
-}
-
-#galeria2{
-	width: 700px;
-	height: 246px;
-	
-	
-}
-
-#foto4{
-	margin-left: 135px;
-}
-
-#descrição-grãos{
-
-	margin-left: 135px;
-}
-
-#galeria3{
-	margin-left: 135px;
-}
-
-#foto5{
-	margin-left: 130px;
-	padding: 5px;
-}
-
-#foto6{
-	margin-left: 18px;
-	padding: 5px;
-
-}
-
-#foto7{
-	margin-left: 18px;
-	padding: 5px;
-
-}
-
-#galeria4{
-	margin-left: 135px;
-}
-
-#foto8{
-	margin-left: 130px;
-	padding: 5px;
-}
-
-#foto9{
-	margin-left: 18px;
-	padding: 5px;
-
-}
-
-#foto10{
-	margin-left: 18px;
-	padding: 5px;
-}
-
-#galeria5{
-	margin-left: 135px;
-}
-
-#foto11{
-	margin-left: 135px;
-
-}
