@@ -1,16 +1,26 @@
 body{
+	background: #FFFAFA;
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
 	min-width: 900px;
 	max-width: 1261px;
+	font-size: 20px;
+	letter-spacing: 2px;
 
 }
 
 #container{
-	background: #f3f3f3;
+	background: #fff;
 	margin: 5px auto;
-	width: 100%;
+	width: 850px;
+	text-align: center;
+	font-family: helvetica; sans-serif; serif;
+}
+
+hr{
+	margin: 0px;
+	padding: 0px;
 }
 
 
@@ -21,44 +31,55 @@ body{
 
 /*Formatação cabeçalho*/
  #cabecalho{
-	width: 850px;
-	margin: 0px auto;
-
+	width: 100%;
 }
 
+#cabecalho div{
+	width: 33.33%;
+}
+
+#cabecalho div img{
+	width: 50%;
+}
 
 .logotipo{
 	float: left;
-	margin-top: 15px;
+	text-align: left;
+	
+
 }
 
 .whatsapp{
 	float: left;
-	margin-left: 196px;
+	text-align: center;
+	
 }
 
 .e-mail{
 	float: right;
+	text-align: right;
 }
 
 /*formatação banner*/
 
 #banner {
-	margin: 0px auto;
-	width: 850px;
+	width: 100%;
 }
 
  
 
 #titulos{
 	text-align: center;
-	font-size: 25px;
-	font-weight: bold;
+	font-size: 1em;
+	font-weight: 550;
+	margin-bottom: 25px;
+
 }
 
 #galeria-1{
-	width: 850px;
-	margin: 0px auto;
+	width: 100%;
+	margin-bottom: 35px;
+	
 }
 
 #galeria-1 .foto1 {
@@ -86,100 +107,144 @@ body{
 /*descrição galeria 1*/
 
 #descricao{
-	width: 850px;
-	margin: 0px auto;
+	/*width: 850px;
+	margin: 0px auto;*/
+	width: 100%;
 	text-align: center;
-	padding: 0px;
+	
 }
 
 #descricao div{
-	display: inline;
-	font-size: 25px;
-	font-weight: bold;
-	line-height: 30px;
-	padding-top: 05px;
+	width: 33.33%;
+	
 }
 
 .massa-asfaltica{
 	 float: left;
+	 font-weight: 550;
+	text-align: center;
 }
 
 .areia{
-	margin-left: -48px;
+	float: left;
+	font-weight: 550;
+	text-align: center;	
 }
 
 .brita{
 	float: right;
-	margin-right: 66px;
+	font-weight: 550;
+	text-align: center;
 }
 
 /* início formatação da galeria 2 */
 
 #galeria-2{
-	width: 850px;
-	margin: 0px auto;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 35px;
 }
 
+#galeria-2 div{ 
+	width: 100%;
+ }
+ #galeria-2 div img{
+ 	width: 100%;
+ 	height: 280px;
+ }
+
+
+
 .descricao-galeria-2{
-	display: inline;
-	font-size: 25px;
-	font-weight: bold;
-	line-height: 30px;
-	padding-top: 05px;
+	font-size: 1em;
+	font-weight: 550;
+	text-align: left;
 }
 
 #galeria-3 {
-	width: 850px;
-	margin: 20px auto;
+	width: 100%;
+	margin-bottom: 35px;
 }
 .descricao-galeria-3 {
-	font-size: 25px;
-	font-weight: bold;
-	line-height: 30px;
-	padding-top: 10px;
-	margin-left: 95px;
+	font-size: 1em;
+	font-weight: 550;
 	text-align: center;
+}
+
+.caminhao{
+	width: 100%;
+}
+.caminhao img{
+	width: 92%;
 }
 
 .caminhao1{
 	float: left;
+	width: 33.33%;
+	text-align: left;
 }
 
 .caminhao2{
 	float: left;
-	margin-left: 157px;
+	width: 33.33%;
+	text-align: center;
 }
 
 .caminhao3{
 	float: right;
+	width: 33.33%;
+	text-align: right;
 }
 
-#galeria-4{
-	width: 850px;
-	margin: 20px auto;
+#sessao-4{
+	width: 100%;
+	margin-bottom: 35px;
 }
+
+#galeria-4 div img{
+	width: 92%;
+}
+
+
 
 .descricao-galeria-4{
-	display: inline-block;
-	font-size: 25px;
-	font-weight: bold;
-	line-height: 30px;
-	padding-top: 41px;
-	margin-left: 95px;
+	font-size: 1em;
+	font-weight: 550;
+	text-align: center;
 }
 
+
+
 #galeria-5{
-	width: 850px;
-	margin: 20px auto;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+		
 }
 
 .descricao-galeria-5{
-	display: inline-block;
-	font-size: 25px;
-	font-weight: bold;
-	line-height: 30px;
-	padding-top: 41px;
-	margin-left: 164px;
-	margin-bottom: 10px;
+	font-size: 1em;
+	font-weight: 550;
+	text-align: center;
+
 }
+
+#galeria-5 div img{
+	width: 100%;
+	height: 204px;
+}
+
+#rodape{
+	width: 100%;
+	margin-top: 10px;
+}
+
+#rodape div{
+	width: 33.33%;
+}
+
+#rodape div img{
+	width: 50%;
+}
+
 
